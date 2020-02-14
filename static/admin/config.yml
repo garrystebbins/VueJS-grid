@@ -11,5 +11,6 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Date, name: date, widget: datetime }
+      - { label: Body, name: body, widget: markdown }
 media_folder: 'static/uploads'
 public_folder: '/uploads'
