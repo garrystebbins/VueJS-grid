@@ -6,9 +6,9 @@
     <h1>All My Blog Posts</h1>
     <ul>
       <li v-for="post in $page.allBlogPost.edges" :key="post.node.id">
-        <a :href="post.node.path"
+        <g-link :href="post.node.path"
           >{{ post.node.title }} (posted on {{ post.node.date }})
-        </a>
+        </g-link>
       </li>
     </ul>
 
