@@ -1,6 +1,6 @@
 backend:
-  name: git-gateway
-  branch: master
+  name: github
+  repo: jlengstorf/love-and-gridsome
 
 collections:
   - name: blog
@@ -11,4 +11,5 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Date, name: date, widget: datetime }
-media_folder: 'static/images/uploads'
+media_folder: 'static/uploads'
+public_folder: '/uploads'
